@@ -6,7 +6,10 @@ Cartographic styles are available in Outdoor, Road, Light, and Black & White. Th
 
 The following [page](https://labs.os.uk/public/osngd/styling/theme-colors.html) illustrates the "analytical" colours for each theme (then hues of the colour at collection level).
 
-The styling rules in a machine readable (JSON) format can be found in `rules-complete.json`. If preferred, an alternate set (as seen in the documentation images) can be accessed via `rules-standard.json`.
+> [!NOTE]
+> **qgis_osngd_theme_style.xml** is a QGIS style items `.XML` file (see [docs.qgis.org](https://docs.qgis.org/3.40/en/docs/user_manual/style_library/style_manager.html#importing-items)) provided as an alternative way to apply the "analytical" styles when using NGD data in QGIS.
+
+The styling rules in a machine readable (`JSON`) format are contained within **rules-complete.json**. If preferred, an alternate set (as seen in the documentation images) can be accessed via **rules-standard.json**.
 
 ## OS NGD API – Tiles ##
 
