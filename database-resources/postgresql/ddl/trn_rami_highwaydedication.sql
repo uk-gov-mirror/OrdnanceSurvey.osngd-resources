@@ -21,7 +21,7 @@ CREATE TABLE trn_rami_highwaydedication (
 	PRIMARY KEY (osid)
 );
 CREATE TABLE trn_rami_highwaydedication_hwydedntwkref (
-	networkreferenceid uuid,
+	networkreferenceid varchar(36),
 	networkfeaturetype varchar(9),
 	highwaydedicationid uuid,
 	highwaydedicationversiondate date,
