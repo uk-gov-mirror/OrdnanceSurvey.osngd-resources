@@ -1,0 +1,43 @@
+/* This DDL is based on data schema version 1.0 */
+CREATE TABLE asu_funcarea_retailareaaggregated (
+	featureid uuid not null,
+	versiondate date not null,
+	versionavailablefromdate timestamp not null,
+	versionavailabletodate timestamp,
+	changetype varchar(50) not null,
+	geometry geometry(MultiPolygon, 27700) not null,
+	geometry_area_m2 numeric(15,3) not null,
+	theme varchar(40) not null,
+	description varchar(25) not null,
+	name1_text varchar(254) not null,
+	name1_language varchar(3),
+	name2_text varchar(254),
+	name2_language varchar(3),
+	builtupareaid varchar(10),
+	builtupareaid_publicationyear integer,
+	builtupareaid_count integer not null,
+	addresscount_total integer not null,
+	addresscount_retail integer not null,
+	addresscount_office integer not null,
+	addresscount_industrial integer not null,
+	addresscount_residential integer not null,
+	addresscount_other integer not null,
+	retailhierarchy varchar(25) not null,
+	retailareacount_majorretail integer not null,
+	retailareacount_minorretail integer not null,
+	retailareacount_standalonebuilding integer not null,
+	easting numeric(8,2) not null,
+	northing numeric(9,2) not null,
+	longitude numeric(9,7) not null,
+	latitude numeric(9,7) not null,
+	PRIMARY KEY (featureid)
+);
+CREATE TABLE asu_funcarea_retailareaaggregated_rltenty (
+	relatedentityid uuid not null,
+	featuretypeid varchar(36) not null,
+	featuretypeversiondate date not null,
+	crossreferencefeature varchar(50) not null,
+	crossreferenceid varchar(36) not null,
+	relationshiptype varchar(30) not null,
+	PRIMARY KEY (relatedentityid,featuretypeversiondate)
+);

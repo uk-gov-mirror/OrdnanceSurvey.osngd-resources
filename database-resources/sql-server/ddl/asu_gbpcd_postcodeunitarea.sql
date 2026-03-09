@@ -1,0 +1,27 @@
+/* This DDL is based on data schema version 1.0 */
+CREATE TABLE asu_gbpcd_postcodeunitarea (
+	postcode nvarchar(8) not null,
+	featureid uniqueidentifier not null,
+	versiondate date not null,
+	versionavailablefromdate datetime not null,
+	versionavailabletodate datetime,
+	changetype nvarchar(50) not null,
+	geometry geometry not null,
+	geometryid uniqueidentifier not null,
+	theme nvarchar(40) not null,
+	description nvarchar(50) not null,
+	postcodenospace nvarchar(7) not null,
+	postcodearea nvarchar(2) not null,
+	postcodedistrict nvarchar(4) not null,
+	postcodesector nvarchar(6) not null,
+	postcodetype nvarchar(10) not null,
+	postcodepartcount_total integer not null,
+	postcodepartcount_coincidentalgeometry integer not null,
+	postcodepartdeliverypointcount_total integer not null,
+	postcodepartdeliverypointcount_residential integer not null,
+	postcodepartdeliverypointcount_commercial integer not null,
+	postcodedeliverypointcount_total integer not null,
+	postcodedeliverypointcount_matched integer not null,
+	postcodedeliverypointcount_unmatched integer not null,
+	PRIMARY KEY (featureid)
+);

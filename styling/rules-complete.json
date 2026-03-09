@@ -84,11 +84,20 @@
                 "asu-bdy-historiccounty": "fill",
                 "asu-bdy-historiceuropeanregion": "fill",
                 "asu-bdy-region": "fill",
-                "asu-bdy-regionalauthority": "fill"
+                "asu-bdy-regionalauthority": "fill",
+                "asu-funcarea-retailareaaggregated": "fill",
+                "asu-funcarea-retailareamajor": "fill",
+                "asu-funcarea-retailareaminor": "fill",
+                "asu-gbpcd-postcodeunitarea": "fill",
+                "asu-gbpcd-postcodeunitpoint": "circle",
+                "asu-nipcd-postcodeunitpoint": "circle"
             },
             "default-color": "#6a54b4",
             "collection-colors": {
-                "bdy": "#6a54b4"
+                "bdy": "#6a54b4",
+                "gbpcd": "#b2a6d8",
+                "nipcd": "#b2a6d8",
+                "funcarea": "#46367c"
             }
         },
         "bld": {
@@ -260,6 +269,12 @@
             "asu-bdy-historiceuropeanregion": "OS NGD Administrative and Statistical Units | Boundaries | Historic European Region",
             "asu-bdy-region": "OS NGD Administrative and Statistical Units | Boundaries | Region",
             "asu-bdy-regionalauthority": "OS NGD Administrative and Statistical Units | Boundaries | Regional Authority",
+            "asu-funcarea-retailareaaggregated": "OS NGD Administrative and Statistical Units | Functional Areas | Retail Area Aggregated",
+            "asu-funcarea-retailareamajor": "OS NGD Administrative and Statistical Units | Functional Areas | Retail Area Major",
+            "asu-funcarea-retailareaminor": "OS NGD Administrative and Statistical Units | Functional Areas | Retail Area Minor",
+            "asu-gbpcd-postcodeunitarea": "OS NGD Administrative and Statistical Units | GB Postcodes | Postcode Unit Area",
+            "asu-gbpcd-postcodeunitpoint": "OS NGD Administrative and Statistical Units | GB Postcodes | Postcode Unit Point",
+            "asu-nipcd-postcodeunitpoint": "OS NGD Administrative and Statistical Units | NI Postcodes | Postcode Unit Point",
             "bld-fts-building": "OS NGD Buildings | Building Features | Building",
             "bld-fts-buildingline": "OS NGD Buildings | Building Features | Building Line",
             "bld-fts-buildingpart": "OS NGD Buildings | Building Features | Building Part",

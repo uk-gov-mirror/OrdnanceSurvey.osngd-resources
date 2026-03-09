@@ -22,7 +22,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#f19748",
+                    "circle-stroke-color": "#dc5b6e",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -36,7 +36,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#55a973",
+                    "circle-stroke-color": "#dc5b6e",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -50,7 +50,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#2d8fb6",
+                    "circle-stroke-color": "#dc5b6e",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -64,7 +64,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#2d8fb6",
+                    "circle-stroke-color": "#dc5b6e",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -78,7 +78,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#6a54b4",
+                    "circle-stroke-color": "#dc5b6e",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -106,7 +106,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#f6bc89",
+                    "circle-stroke-color": "#eb91a2",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -120,7 +120,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#55a973",
+                    "circle-stroke-color": "#eb91a2",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -134,7 +134,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#2d8fb6",
+                    "circle-stroke-color": "#eb91a2",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -148,7 +148,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#2d8fb6",
+                    "circle-stroke-color": "#eb91a2",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -162,7 +162,7 @@
                     "circle-radius": 4,
                     "circle-color": "#ffffff",
                     "circle-opacity": 1,
-                    "circle-stroke-color": "#7b6bb7",
+                    "circle-stroke-color": "#eb91a2",
                     "circle-stroke-opacity": 1,
                     "circle-stroke-width": 1.5
                 }
@@ -385,6 +385,86 @@
                     "fill-outline-color": "#6a54b4",
                     "fill-outline-opacity": 1,
                     "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-funcarea-retailareaaggregated",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#46367c",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#46367c",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-funcarea-retailareamajor",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#46367c",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#46367c",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-funcarea-retailareaminor",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#46367c",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#46367c",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-gbpcd-postcodeunitarea",
+            "type": "fill",
+            "style": [
+                {
+                    "fill-color": "#b2a6d8",
+                    "fill-opacity": 0.3,
+                    "fill-outline-color": "#b2a6d8",
+                    "fill-outline-opacity": 1,
+                    "fill-outline-width": 1
+                }
+            ]
+        },
+        {
+            "id": "asu-gbpcd-postcodeunitpoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#b2a6d8",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
+                }
+            ]
+        },
+        {
+            "id": "asu-nipcd-postcodeunitpoint",
+            "type": "circle",
+            "style": [
+                {
+                    "circle-radius": 4,
+                    "circle-color": "#ffffff",
+                    "circle-opacity": 1,
+                    "circle-stroke-color": "#b2a6d8",
+                    "circle-stroke-opacity": 1,
+                    "circle-stroke-width": 1.5
                 }
             ]
         },
@@ -1388,6 +1468,12 @@
             "asu-bdy-historiceuropeanregion": "OS NGD Administrative and Statistical Units | Boundaries | Historic European Region",
             "asu-bdy-region": "OS NGD Administrative and Statistical Units | Boundaries | Region",
             "asu-bdy-regionalauthority": "OS NGD Administrative and Statistical Units | Boundaries | Regional Authority",
+            "asu-funcarea-retailareaaggregated": "OS NGD Administrative and Statistical Units | Functional Areas | Retail Area Aggregated",
+            "asu-funcarea-retailareamajor": "OS NGD Administrative and Statistical Units | Functional Areas | Retail Area Major",
+            "asu-funcarea-retailareaminor": "OS NGD Administrative and Statistical Units | Functional Areas | Retail Area Minor",
+            "asu-gbpcd-postcodeunitarea": "OS NGD Administrative and Statistical Units | GB Postcodes | Postcode Unit Area",
+            "asu-gbpcd-postcodeunitpoint": "OS NGD Administrative and Statistical Units | GB Postcodes | Postcode Unit Point",
+            "asu-nipcd-postcodeunitpoint": "OS NGD Administrative and Statistical Units | NI Postcodes | Postcode Unit Point",
             "bld-fts-building": "OS NGD Buildings | Building Features | Building",
             "bld-fts-buildingline": "OS NGD Buildings | Building Features | Building Line",
             "bld-fts-buildingpart": "OS NGD Buildings | Building Features | Building Part",
